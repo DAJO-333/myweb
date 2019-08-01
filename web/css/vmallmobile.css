@@ -1,0 +1,478 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#container {
+/*	width: 100vw;
+	height: 100vh;*/
+	position: relative;
+	background-image: url("../imgmobile/风景.jpg");
+	background-size: 100vw 60vh;
+	background-repeat: no-repeat;
+	
+}
+#header {
+   width: 100vw;
+   height: 5rem;
+   /*background-color: #fff;*/
+   background-color: rgba(333,333,333,0.6);
+   /*border: 1px solid #000;*/
+   position: fixed;
+   top: 0em;
+   left: 0em;
+   z-index: 1000;
+   background-color: #fff;
+}
+.fix { 
+	display: flex;
+}
+.header-left {
+    width: 5rem;
+    height: 2rem;
+    padding-top: 0.6rem;
+}
+.header-left img {
+	width: 4.9rem;
+    height: 1rem;
+}
+.header-middle {
+	height: 1.6rem;
+	width: 2rem;
+	margin-top: 0.4rem;
+}
+.header-right {
+	width: 5rem;
+	height: 1rem;
+	position: absolute;
+	top: 6px;
+	left: 291px;
+}
+.nav {
+	margin-top: 0.4rem;
+	height: 2rem;
+	/*border: 1px solid #000;*/
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.2rem;
+	color: #777;
+	background-color: rgba(255,255,255,0.6);
+}
+.nav span {
+	/*display: block;*/
+	line-height: 2rem;
+}
+.nav-span1 {
+	display: block;
+	border-bottom: 1px solid #000;
+	color: #cc0e11;
+}
+.main1 {
+	height: 12rem;
+	margin-top: 5rem;
+}
+.main1 img {
+	height: 12rem;
+	width: 100%;
+	border-radius: 3rem;
+}
+.main2 {
+	height: 2rem;
+	background-color: rgba(190,190,190,0.4);
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-around;
+	line-height: 2rem;
+}
+.main3 {
+	height: 2rem;
+	background-color: rgba(190,190,190,0.4);
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-around;
+	line-height: 2rem;
+	font-size: 0.9rem;
+}
+.main4 {
+	height: 2rem;
+	background-color: rgba(190,190,190,0.4);
+	margin-top: 1.6rem;
+	display: flex;
+	justify-content: space-around;
+	line-height: 2rem;
+}
+.xianshigou {
+	height: 5rem;
+	background-color: #ccc;
+	margin-top: 0.6rem;
+}
+.section1 {
+	font-size: 16px;
+	width: 100vw;
+	height: 16em;
+	/*border: 0.1em solid #000;*/
+	display: flex;
+	justify-content: space-around;
+}
+.section1-left {
+	width: 50vw;
+	height: 16em;
+}
+.section1-left img {
+	width: 11em;
+	height: 16em;
+}
+.section1-right {
+	width: 50vw;
+	height: 16em;
+}
+.section1-right-top {
+	width: 11em;
+	height: 8em;
+}
+.section1-right img {
+	width: 11em;
+	height: 8em;
+}
+.section1-right-bottom img{
+	width: 11em;
+	height: 8em;
+}
+.section2 {
+	height: 16.5em;
+	width: 100vw;
+	/*border: 1px solid #000;*/
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 0.6em;
+}
+.section2 img {
+	width: 11em;
+	height: 8em;
+}
+.section3 {
+	/*width: 7.5em;*/
+	height: 11em;
+	display: flex;
+	justify-content: space-around;
+}
+.section3 div {
+    width: 7.5em;
+    height: 11em;
+    background-color: #F9F9F9;
+    padding-top: 1em;
+    text-align: center;
+    border-radius: 1em;
+}
+.section3 img {
+	width: 5em;
+	height: 5em;
+	margin-left: 1em;
+}
+.section3-div1-p1,.section3-div1-p3 {
+	font-size: 0.8em;
+	color: #333;
+	margin-top: 0.7em;
+	margin-bottom: 0.7em;
+}
+.section3-div1-p2 {
+	font-size: 0.75em;
+	color: #9b9b9b;
+}
+#jingpingtuijian,#shouji {
+	height: 3.6em;
+	margin-top: 1.5em;
+	text-align: center;
+	line-height: 3.6em;
+	font-size: 1.1em;
+	color: #444;
+}
+#section4 {
+	height: 13em;
+	display: flex;
+	justify-content: space-around;
+} 
+#section4 div {
+	width: 8em;
+	/*height: 13em;*/
+	box-sizing: border-box;
+}
+.section4-div1-top {
+	height: 8.3em;
+	width: 8em;
+	background-color: #F9F9F9;
+	box-sizing: border-box;
+	border-radius: 0.7em;
+}
+.section4-div1-top img {
+	height: 5.4em;
+	width: 5.4em;
+	display: block;
+	margin: 0 auto;
+}
+
+.xinping {
+	width: 3.5em;
+	height: 1.5em;
+	font-size: 0.6em;
+	text-align: center;
+	margin:0 auto;
+	background-color: blue;
+	border-radius: 0em 0em 0.3em 0.3em;
+	color: #fff;
+	margin-bottom: 1em;
+}
+.bootom-6qi {
+	height: 1.3em;
+
+	background-color:#F0F0F0;
+	margin-top: 0.4em;
+	font-size: 0.7em;
+	color: #9b9b9b;
+	text-align: center;
+}
+.s4-div1-pp1 {
+	color: #333;
+	font-size: 0.8em;
+	text-align: center;
+	margin-top: 1em;
+}
+.s4-div1-pp2 {
+	color: #ca141d;
+	font-size: 0.88em;
+	text-align: center;
+	margin-top: 0.5em;
+}
+.s4-span {
+	color: #bbb;
+	font-size: 0.88em;
+	text-decoration: line-through;
+}
+#section5 {
+	height: 15em;
+	/*border: 1px solid #000;*/
+	display: flex;
+	justify-content: space-around;
+}
+.dibv11 {
+	height: 15em;
+	width: 50vw;
+}
+.section5-div1-top {
+	height: 11em;
+	width: 11em;
+	background-image: url("../imgmobile/section5-1.jpg");
+	background-size: 11em 11em;
+	border-radius: 1em;
+	position: relative;
+}
+.section5-div1-top p {
+	height: 1.6em;
+	background-color: rgba(0,0,0,0.2);
+	color: rgba(255,255,255,0.9);
+	font-size: 0.7em;
+	text-align: center;
+	/*margin-top: 1em;*/
+	position: absolute;
+	top: 14em;
+	left: 4em;
+}
+.empty {
+	height: 1em;
+	background-color: #F9F9F9;
+}
+.section5-div1-top1 {
+	height: 11em;
+	width: 11em;
+	background-image: url("../imgmobile/section6-1.png");
+	background-size: 11em 11em;
+	border-radius: 1em;
+	position: relative;
+}
+.section5-div1-top2 {
+	height: 11em;
+	width: 11em;
+	background-image: url("../imgmobile/section6-2.png");
+	background-size: 11em 11em;
+	border-radius: 1em;
+	position: relative;
+}
+.section5-div1-top3 {
+	height: 11em;
+	width: 11em;
+	background-image: url("../imgmobile/section6-3.png");
+	background-size: 11em 11em;
+	border-radius: 1em;
+	position: relative;
+}
+.section5-div1-top4 {
+	height: 11em;
+	width: 11em;
+	background-image: url("../imgmobile/section6-4.png");
+	background-size: 11em 11em;
+	border-radius: 1em;
+	position: relative;
+}
+.section5-div1-top5 {
+	height: 11em;
+	width: 11em;
+	background-image: url("https://res5.vmallres.com/pimages//wapFrontLocation/content/yY8seqMw7Yp3lf8HXrMS.jpg");
+	background-size: 11em 11em;
+	border-radius: 1em;
+	position: relative;
+}
+.section5-div1-top6 {
+	height: 11em;
+	width: 11em;
+	background-image: url("https://res5.vmallres.com/pimages//wapFrontLocation/content/np88Ztnpvm7RQHSGV6WU.png");
+	background-size: 11em 11em;
+	border-radius: 1em;
+	position: relative;
+}
+.changtu {
+	/*width: 22.5em;*/
+	height: 6.25em;
+	margin-bottom: 1em;
+
+}
+.changtu img {
+	width: 22.5em;
+	height: 6.25em;
+	display: block;
+	border-radius: 1em;
+	margin: 0 auto;
+}
+.footer {
+	height: 10.25em;
+	width: 100vw;
+	background-color: #fff;
+	padding-bottom: 1em;
+
+		
+}
+.footer-top {
+	height: 2.6em;
+	font-size: 0.9em;
+	color: #333;
+	display: flex;
+	border-bottom: 0.1em solid #ccc;
+
+}
+.footer-top-div {
+	width: 4.8em;
+	height: 1.9em;
+	text-align: center;
+	line-height: 1.9em;
+
+
+}
+.denglu {
+	border-right: 0.2em solid #ccc;
+}
+.dengfan {
+	width: 9.6em;
+	height: 3.8em;
+	margin: 0 auto;
+	display: flex;
+}
+.footer1 {
+    height: 4.5em;
+    position: relative;
+
+}
+.f2-img1 {
+	background-image: url("../imgmobile/footer1.png");
+	height: 4.4em;
+	width: 3.4em;
+}
+.footer1 p {
+	text-align: center;
+	font-size: .6em;
+	margin-left: 1em;
+
+}
+.f1-div1 {
+     position: absolute;
+     top: 0em;
+     left: 6em;
+}
+.f1-div2 {
+     position: absolute;
+     top: 0em;
+     left: 9em;
+}
+.f2-img2 {
+	background-image: url("../imgmobile/footer1-2.png");
+	height: 4.4em;
+	width: 3.4em;
+}
+.f1-div3 {
+     position: absolute;
+     top: 0em;
+     left: 13em;
+}
+.f2-img3 {
+	background-image: url("../imgmobile/footer3.png");
+	height: 4.4em;
+	width: 4.4em;
+}
+.footer-bottom {
+	height: 6.18em;
+	color: #9b9b9b;
+	font-size: 0.62em;
+	text-align: center;
+	/*line-height: 6.18em;*/
+	box-sizing: border-box;
+	margin-bottom: 1em;
+}
+.ff-p {
+	font-size: 0.75em;
+}
+.ppp {
+	/*line-height: 6.18em;*/
+	/*margin-bottom: 1em;*/
+}
+.gudingjiantou {
+	width: 3.25em;
+	height: 3.25em;
+	border-radius: 1.62em;
+	background-color: #fff;
+	background-image: url("https://res.vmallres.com/nwap/20190615/images/echannelWap/icon/button-top.png");
+	background-size: 3.25em 3.25em;
+	position: fixed;
+	bottom: 10em;
+	right: 2em;
+
+}
+.bottomlast {
+	height: 3.25em;
+	display: flex;
+}
+.bottomlast-div1 {
+	width: 4.68em;
+	height: 3.25em;
+	background-image: url("https://res.vmallres.com/nwap/20190615/images/echannelWap/icon/icon55_new.png");
+	background-size: 19.68em 7.25em;
+	background-position: 0.5em 3.5em;
+
+}
+.bottomlast-div2 {
+	width: 4.68em;
+	height: 3.25em;
+	
+
+}
+.bottomlast-div2-1 {
+	width: 3em;
+	height: 2.5em;
+	background-image: url("https://res.vmallres.com/nwap/20190615/images/echannelWap/icon/icon55_new.png");
+	background-size: 1em 1em;
+	background-position: 0em 0em;
+}
+
+
+
+
+
+
+
